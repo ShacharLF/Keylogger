@@ -34,7 +34,7 @@ Using it on computers without explicit permission may violate privacy laws (incl
 
 ## How to Compile to EXE
 
-## 1. Install dependencies
+## Install dependencies
 cmd
 python -m pip install pynput cryptography pyinstaller
 
@@ -42,7 +42,7 @@ Compile (Recommended command)
 
 "python -m PyInstaller --onefile --noconsole --clean --hidden-import=pynput.keyboard._win32 --hidden-import=pynput.keyboard.win32 --hidden-import=pynput._util.win32 Keylogger.py"
 
-Usage
+## Usage
 
 Copy the .exe file to the target machine
 Run the executable (double click)
@@ -53,7 +53,7 @@ All keystrokes will be logged to:
 
 To stop the keylogger — press Ctrl + Alt + Q
 
-Decryption (If Encrypted Version Used)
+## Decryption (If Encrypted Version Used)
 
 Run decryptor.py or the compiled decryptor
 Enter the path to the encrypted log file
@@ -61,7 +61,7 @@ Enter the encryption key
 Choose where to save the decrypted log (optional)
 
 
-##Important Notes
+## Important Notes
 
 This project was created for educational purposes only
 Do not use on computers without proper authorization
@@ -69,6 +69,6 @@ Recommended to test only in virtual machines (VMs)
 The author is not responsible for any misuse of this code
 
 
-###License
+### License
 This project is for educational purposes only.
 Use at your own risk and responsibility.
