@@ -34,8 +34,8 @@ Using it on computers without explicit permission may violate privacy laws (incl
 
 ## How to Compile to EXE
 
-### 1. Install dependencies
-```cmd
+## 1. Install dependencies
+cmd
 python -m pip install pynput cryptography pyinstaller
 
 Compile (Recommended command)
@@ -61,7 +61,7 @@ Enter the encryption key
 Choose where to save the decrypted log (optional)
 
 
-Important Notes
+##Important Notes
 
 This project was created for educational purposes only
 Do not use on computers without proper authorization
@@ -69,6 +69,6 @@ Recommended to test only in virtual machines (VMs)
 The author is not responsible for any misuse of this code
 
 
-License
+###License
 This project is for educational purposes only.
 Use at your own risk and responsibility.
